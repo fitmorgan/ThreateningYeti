@@ -1,48 +1,7 @@
-# Discontinued
+# You do not need to use ThreateningYeti - it is too complicated. 
 
-Unfortunately, this cat and mouse game has gone too far to publicly release an open-source bypass. If you wish to be notified when (and if) I release a closed-source version, you can subcribe to be notified through email here: http://eepurl.com/g73b31
+ThreateningYeti is not needed to Bypass Respondus. You can simply use RemotePC to connect and easily have a friend take your respondus exam.
 
-# ThreateningYeti [![Build status](https://ci.appveyor.com/api/projects/status/l27pfn6pfyf07b0v?svg=true)](https://ci.appveyor.com/project/sup3rvis0r/threateningyeti)
-
-[Download the latest version here](https://github.com/melotic/ThreateningYeti/releases)
+[Just follow my guide posted here](https://medium.com/@fitmorgan/lockdown-browser-bypass-method-100-working-how-to-cheat-on-a-respondus-proctored-exams-and-80ec6c5335c)
 
 ThreateningYeti is a bypass designed for Respondus LockDown Browser. It consists of two projects, the injected DLL (ThreateningYeti) and the DLL Injector (YetiLoader).
-
-ThreateningYeti will hook many WinAPI functions and LockDown Browser's own functions to remove the restrictions of the browser. YetiLoader creates the LockDown Browser process and injects the DLL automatically.
-
-## Features
-- Alt-tab during tests
-- Disabled covering windows
-- Enabled F1-F12 keys, as well as media keys and windows key
-- Clipboard is not cleared
-- Taskmanager (as well as auto run) is enabled
-- LockDown Browser losing focus wont cause it to exit
-
-## Usage
-
-1. Download the latest release from [here](https://github.com/melotic/ThreateningYeti/releases/download/1.1/Release.zip)
-2. Ensure you're running the latest version of Lockdown Browser ([How-to](https://support.respondus.com/support/index.php?/Knowledgebase/Article/View/326/0/how-to-update-lockdown-browser))
-3. Run YetiLoader.exe
-
-YetiLoader will automatically launch Lockdown Browser.
-
-## Donations
-If you're a fan of the project and would like to buy me a coffee, here's how you can donate.
-
-BTC: 3CGvzEKd8kq8yQQTDmxa6H4PzBvZ9Gw2Nc
-ETH: 0x979e8276a2BD50801afe3A02B8a072Ce53c545fF
-
-If you want to donate with PayPal, please click the Sponsor button on top!
-
-## Build Instructions
-
-1. Install MinHook as a static package with [vcpkg](https://github.com/microsoft/vcpkg "vcpkg")
-2. Compile ThreateningYeti and YetiLoader
-3. Run YetiLoader
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-## License
-[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
